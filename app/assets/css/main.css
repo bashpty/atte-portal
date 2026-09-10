@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+
+  /* Institutional Navy Blue (primary) */
+  --color-primary-50: #eef4fb;
+  --color-primary-100: #d5e3ff;
+  --color-primary-200: #a7c8ff;
+  --color-primary-300: #6cabfd;
+  --color-primary-400: #3a5f94;
+  --color-primary-500: #045fac;
+  --color-primary-600: #003366;
+  --color-primary-700: #001e40;
+  --color-primary-800: #001b3c;
+  --color-primary-900: #001529;
+  --color-primary-950: #000d1a;
+
+  /* Transit Orange (tertiary / accent) */
+  --color-tertiary-50: #fff4ed;
+  --color-tertiary-100: #ffdbcd;
+  --color-tertiary-200: #ffb597;
+  --color-tertiary-300: #ff6f29;
+  --color-tertiary-400: #f2661f;
+  --color-tertiary-500: #d95511;
+  --color-tertiary-600: #7e2c00;
+  --color-tertiary-700: #5d1f00;
+  --color-tertiary-800: #3a1000;
+  --color-tertiary-900: #2a0b00;
+  --color-tertiary-950: #1a0700;
+
+  /* DESIGN.md literal Material-3 token palette (used to mirror source mockups 1:1) */
+  --color-surface: #fcf8fc;
+  --color-surface-dim: #dcd9dc;
+  --color-surface-bright: #fcf8fc;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f6f3f6;
+  --color-surface-container: #f0edf0;
+  --color-surface-container-high: #eae7eb;
+  --color-surface-container-highest: #e4e1e5;
+  --color-on-surface: #1b1b1e;
+  --color-on-surface-variant: #43474f;
+  --color-inverse-surface: #303033;
+  --color-inverse-on-surface: #f3f0f3;
+  --color-outline: #737780;
+  --color-outline-variant: #c3c6d1;
+  --color-primary-container: #003366;
+  --color-on-primary-container: #799dd6;
+  --color-inverse-primary: #a7c8ff;
+  --color-on-primary: #ffffff;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #6cabfd;
+  --color-on-secondary-container: #003e74;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #5d1f00;
+  --color-on-tertiary-container: #ff6f29;
+  --color-primary-fixed: #d5e3ff;
+  --color-primary-fixed-dim: #a7c8ff;
+  --color-on-primary-fixed: #001b3c;
+  --color-on-primary-fixed-variant: #1f477b;
+  --color-secondary-fixed: #d4e3ff;
+  --color-secondary-fixed-dim: #a4c8ff;
+  --color-on-secondary-fixed: #001c3a;
+  --color-on-secondary-fixed-variant: #004784;
+  --color-tertiary-fixed: #ffdbcd;
+  --color-tertiary-fixed-dim: #ffb597;
+  --color-on-tertiary-fixed: #360f00;
+  --color-on-tertiary-fixed-variant: #7e2c00;
+  --color-background: #fcf8fc;
+  --color-on-background: #1b1b1e;
+  --color-surface-variant: #e4e1e5;
+  --color-surface-page: #f8fafc;
+  --color-surface-card: #ffffff;
+  --color-status-success: #16a34a;
+  --color-status-warning: #d97706;
+  --color-status-error: #dc2626;
+  --color-border-subtle: #e2e8f0;
+  --color-panama-red: #da121a;
+}
+
+:root {
+  --ui-radius: 0.5rem;
+}
+
+.font-headline-hero { font-size: 40px; font-weight: 700; line-height: 48px; letter-spacing: -0.02em; }
+.font-headline-lg { font-size: 30px; font-weight: 700; line-height: 38px; letter-spacing: -0.015em; }
+.font-headline-md { font-size: 22px; font-weight: 600; line-height: 28px; letter-spacing: -0.01em; }
+.font-headline-sm { font-size: 18px; font-weight: 600; line-height: 24px; letter-spacing: -0.005em; }
+.font-body-lg { font-size: 16px; font-weight: 400; line-height: 24px; }
+.font-body-base { font-size: 14px; font-weight: 400; line-height: 20px; }
+.font-body-sm { font-size: 12px; font-weight: 400; line-height: 16px; }
+.font-label-lg { font-size: 14px; font-weight: 600; line-height: 20px; letter-spacing: 0.01em; }
+.font-label-base { font-size: 12px; font-weight: 600; line-height: 16px; letter-spacing: 0.02em; }
+.font-label-code { font-size: 13px; font-weight: 700; line-height: 16px; letter-spacing: 0.05em; }
+
+/* Panama flag accent used sparingly for institutional co-branding */
+.panama-accent {
+  background: linear-gradient(90deg, #DA121A 0%, #DA121A 25%, #fff 25%, #fff 50%, #001489 50%, #001489 75%, #fff 75%, #fff 100%);
+}
