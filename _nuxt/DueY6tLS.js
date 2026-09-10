@@ -1,0 +1,1 @@
+import{Fn as e}from"./1Be0MEeI.js";import{t}from"#entry";function n(){let n=e(!1),r=t();async function i(e={}){n.value=!0,await new Promise(t=>setTimeout(t,e.delay??1600)),n.value=!1,e.success&&r.add({title:e.success,color:`success`,icon:`i-lucide-check-circle`})}return{loading:n,run:i}}export{n as t};
